@@ -1,0 +1,159 @@
+#title {
+    background-color: #C06014;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat, sans-serif';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+.whatapp_link{
+    color: white;
+}
+.whatapp_link:hover{
+    color: grey;
+}
+.swiggy_link{
+    color: white;
+}
+.swiggy_link:hover{
+    color: black;
+}
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.iphone {
+    /* margin: 30px auto auto 40px; */
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+
+/* nav-bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #C06014;
+}
+
+.icon:hover {
+    color: #131213;
+}
+
+
+/* food items */
+
+#food_items {
+
+    text-align: center;
+    background-color: #C06014;
+    /* color: #461111; */
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.items-profile {
+    width: 45%;
+    margin: 20px;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* product_used */
+
+#product_used {
+    background-color: #C06014;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.product_logo{
+    width: 5%;
+    margin: 10px 10px 30px;
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.full_meal{
+    padding-top: 50px;
+}
+
+.meal_heading{
+    font-size: 2.0rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.pricing-column{
+    padding : 3%  0%;
+
+}
+
+/* cta */
+#cta{
+    text-align: center;
+    padding: 3% 5%;
+}
