@@ -33,6 +33,7 @@ h1 {
 
 .iphone {
     /* margin: 30px auto auto 40px; */
+    margin: 5% 20%;
     transform: rotate(25deg);
     width: 60%;
 }
