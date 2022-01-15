@@ -1,0 +1,200 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #3b3b3b;
+}
+
+
+/* headingggggggggg */
+
+.big-heading {
+    font-family: "Montserrat, sans-serif";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+/* contianers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* nav-bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* titlesection */
+
+#title {
+    background-color: #c06014;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.whatapp_link {
+    color: white;
+}
+
+.whatapp_link:hover {
+    color: rgb(240, 231, 231);
+}
+
+.swiggy_link {
+    color: white;
+}
+
+.swiggy_link:hover {
+    color: black;
+}
+
+.iphone {
+    /* margin: 30px auto auto 40px; */
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+/* features section */
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #c06014;
+}
+
+.icon:hover {
+    color: #131213;
+}
+
+
+/* food items  carousel part*/
+
+#food_items {
+    background-color: #c06014;
+    /* color: #461111; */
+}
+
+.items-profile {
+    width: 45%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.full_meal {
+    padding-top: 50px;
+}
+
+.meal_heading {
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.pricing-column {
+    padding: 3% 0%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/* cta */
+
+#cta {
+    background-color: #c06014;
+    color: white;
+}
+
+#cta .container-fluid {
+    padding: 3%;
+}
+
+
+/* foooter */
+
+#footer {
+    font-size: 1.5rem;
+}
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+
+/* media quary */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+}
